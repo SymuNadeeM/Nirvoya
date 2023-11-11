@@ -2,15 +2,40 @@ import React from 'react'
 import bansid1 from "../assets/bannpic1.png"
 import banner1 from "../assets/bannerPme.png"
 import bansid2 from "../assets/bannpic2.png"
+import Slider from "react-slick";
+
 
 const Banner = () => {
+
+  
+
+  // const settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 300,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1
+  // };
+
+  const settings = {
+    dots: true,
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000
+  };
+
+  
+ 
   return (
     <>
-      <section className=' z-0 xs:px-[10px] sm:px-[20px] md:px-[90px] mx-auto pt-[10px] xs:pb-[30px] sm:pb-[40px] md:pb-[50px]'>
-        <div className=' grid md:grid-cols-3 gap-[26px]'>
+      <section className=' z-0 xs:px-[10px] sm:px-[20px] md:px-[40px] lg:px-[90px] mx-auto pt-[10px] xs:pb-[30px] sm:pb-[40px] md:pb-[50px]'>
+        <div className=' grid md:grid-cols-3 md:gap-[13px] lg:gap-[26px]'>
            <div className=' grid md:col-span-2 '>
+           <Slider {...settings} className=' overflow-hidden'>
               <div className=' relative'>
-                <img src={banner1} alt="" className=' w-full sm:h-[200px] md:h-[563.55px] rounded-[10px] ' />
+                <img src={banner1} alt="" className=' w-full sm:h-[200px] md:h-[490px] lg:h-[563.55px] rounded-[10px] ' />
                 <div className=' absolute xs:left-[15px] xs:top-[15px] sm:left-[20px] sm:top-[20px] md:left-[60px] md:top-[32%] md:bottom-[32%]'>
                       <div className=' xs:w-[190px] xs:h-[] sm:w-[217px] md:w-[486px] sm:h-[153px] md:h-[216px] '>
                          <h2 className=' font-montser font-bold sm:text-[20px] md:text-[45px] sm:leading-[24px] md:leading-[54.86px] text-blue'>Explore Men’s Winter Collection</h2>
@@ -20,6 +45,31 @@ const Banner = () => {
                      
                 </div>
               </div>
+              <div className=' relative'>
+                <img src={banner1} alt="" className=' w-full sm:h-[200px] md:h-[490px] lg:h-[563.55px] rounded-[10px] ' />
+                <div className=' absolute xs:left-[15px] xs:top-[15px] sm:left-[20px] sm:top-[20px] md:left-[60px] md:top-[32%] md:bottom-[32%]'>
+                      <div className=' xs:w-[190px] xs:h-[] sm:w-[217px] md:w-[486px] sm:h-[153px] md:h-[216px] '>
+                         <h2 className=' font-montser font-bold sm:text-[20px] md:text-[45px] sm:leading-[24px] md:leading-[54.86px] text-blue'>Explore  2 Winter Collection</h2>
+                         <p className=' sm:mt-[10px] md:mt-[30px] sm:text-[12px]  md:text-[20px] sm:leading-[20px]  md:leading-[40px] font-normal font-poppins text-[#646464]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+                         <button className=' mt-[10px] md:mt-[25px] xs:w-[80px] xs:h-[35px] sm:w-[99px] sm:h-[28px] md:w-[139px] md:h-[44px] xs:text-[10px] sm:text-[12px] font-poppins sm:leading-[18px] md:font-semibold leading-[24px] text-white rounded-[5px] xs:px-[10px] xs:py-[4px] sm:px-[10px] md:px-[25px] sm:py-[4px] md:py-[10px] bg-Secblue'>SHOP NOW</button>
+                      </div>
+                     
+                </div>
+              </div>
+              <div className=' relative'>
+                <img src={banner1} alt="" className=' w-full sm:h-[200px] md:h-[490px] lg:h-[563.55px] rounded-[10px] ' />
+                <div className=' absolute xs:left-[15px] xs:top-[15px] sm:left-[20px] sm:top-[20px] md:left-[60px] md:top-[32%] md:bottom-[32%]'>
+                      <div className=' xs:w-[190px] xs:h-[] sm:w-[217px] md:w-[486px] sm:h-[153px] md:h-[216px] '>
+                         <h2 className=' font-montser font-bold sm:text-[20px] md:text-[45px] sm:leading-[24px] md:leading-[54.86px] text-blue'>Explore Men’s 3 Winter Collection</h2>
+                         <p className=' sm:mt-[10px] md:mt-[30px] sm:text-[12px]  md:text-[20px] sm:leading-[20px]  md:leading-[40px] font-normal font-poppins text-[#646464]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor. </p>
+                         <button className=' mt-[10px] md:mt-[25px] xs:w-[80px] xs:h-[35px] sm:w-[99px] sm:h-[28px] md:w-[139px] md:h-[44px] xs:text-[10px] sm:text-[12px] font-poppins sm:leading-[18px] md:font-semibold leading-[24px] text-white rounded-[5px] xs:px-[10px] xs:py-[4px] sm:px-[10px] md:px-[25px] sm:py-[4px] md:py-[10px] bg-Secblue'>SHOP NOW</button>
+                      </div>
+                     
+                </div>
+              </div>
+              
+              </Slider>
+          
            </div>
            <div className=' hidden md:grid md:col-span-1 gap-[26px] '>
                <div className=' relative'>

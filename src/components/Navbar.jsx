@@ -15,7 +15,7 @@ const Navbar = () => {
            <div className=' md:py-[15px] lg:py-[20px]  hidden md:grid grid-cols-3 '>
               <div className=' grid col-span-2 '>
                    <div className=' flex items-center md:gap-[30px] lg:gap-[50px]'>
-                    <img src={logo} alt="" className=' md:w-[70px] md:h-[80px] ' />
+                    <img src={logo} alt="" className=' md:w-[70px] md:h-[80px] lg:w-[141px] lg:h-[80px] ' />
                     
                    <div className='  flex items-center justify-end  w-full '>
                       <input type="text" placeholder="I'm looking for..." className=' bg-[#F1F1F1] w-full  md:h-[40px]  lg:h-[50px] border-[1px] border-[#F1F1F1] outline-none p-[16px]'  />
@@ -49,27 +49,27 @@ const Navbar = () => {
               </div>
            </div>
           <div className=' '>
-             <ul className=' hidden md:flex items-center justify-around pb-[4px] '>
+             <ul className=' hidden md:flex items-center md:justify-center lg:justify-around pb-[4px] '>
                 
 
 
-                <li className='  group '><Link href={"/"} className=' font-poppins font-[500] text-[16px] leading-[24px] uppercase text-blackText opacity-[85%]'>Women's Fashion  </Link>
+                <li className='  group '><Link href={"/"} className=' font-poppins font-[500]  text-[16px] leading-[24px] uppercase text-blackText opacity-[85%]'>Women's Fashion  </Link>
                         <div className="z-10  absolute md:w-[687px] lg:w-[1170px] md:top-[163px] md:left-[40px] lg:top-[150px] lg:left-[90px]  duration-300  invisible group-hover:visible text-text-black font-medium text-[15px] font-Inter bg-white border-[2px] border-red rounded-[3px]   ">
                             <div className=' px-[74px] py-[30px] grid grid-cols-5'>
                                 <ul>
-                                  <li><Link to={"/"} className=' font-poppins font-[500] text-[16px] leading-[24px] text-blackText'>Saree</Link></li>
-                                  <li><Link to={"/"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Cotton</Link></li>
-                                  <li><Link to={"/"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Silk</Link></li>
-                                  <li><Link to={"/"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Katan</Link></li>
-                                  <li><Link to={"/"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Muslin</Link></li>
-                                  <li><Link to={"/"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Jamdani</Link></li>
-                                  <li><Link to={"/"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Georgette</Link></li>
-                                  <li><Link to={"/"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Nakshi Kantha</Link></li>
-                                  <li><Link to={"/"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Linen</Link></li>
-                                  <li><Link to={"/"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Khadi</Link></li>
-                                  <li><Link to={"/"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Tangail Taant</Link></li>
-                                  <li><Link to={"/"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Monipuri</Link></li>
-                                  <li><Link to={"/"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Dhakai Benaroshi</Link></li>
+                                  <li><Link to={"/singledetails"} className=' font-poppins font-[500] text-[16px] leading-[24px] text-blackText'>Saree</Link></li>
+                                  <li><Link to={"/singledetails"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Cotton</Link></li>
+                                  <li><Link to={"/singledetails"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Silk</Link></li>
+                                  <li><Link to={"/singledetails"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Katan</Link></li>
+                                  <li><Link to={"/singledetails"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Muslin</Link></li>
+                                  <li><Link to={"/singledetails"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Jamdani</Link></li>
+                                  <li><Link to={"/singledetails"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Georgette</Link></li>
+                                  <li><Link to={"/singledetails"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Nakshi Kantha</Link></li>
+                                  <li><Link to={"/singledetails"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Linen</Link></li>
+                                  <li><Link to={"/singledetails"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Khadi</Link></li>
+                                  <li><Link to={"/singledetails"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Tangail Taant</Link></li>
+                                  <li><Link to={"/singledetails"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Monipuri</Link></li>
+                                  <li><Link to={"/singledetails"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Dhakai Benaroshi</Link></li>
                                  
                                 </ul>
                                 <ul>
@@ -141,7 +141,7 @@ const Navbar = () => {
                        </div>
                 </li>
                 <li className='  group '><Link href={"/"} className=' font-poppins font-[500] text-[16px] leading-[24px] uppercase text-blackText opacity-[85%]'>men's Fashion  </Link>
-                        <div className="z-10  absolute w-[1170px] top-[150px] right-[200px] left-[90px]  duration-300  invisible group-hover:visible text-text-black font-medium text-[15px] font-Inter bg-white border-[2px] border-red rounded-[3px]   ">
+                        <div className="z-10  absolute md:w-[687px] lg:w-[1170px] md:top-[163px] md:left-[40px] lg:top-[150px] lg:left-[90px]  duration-300  invisible group-hover:visible text-text-black font-medium text-[15px] font-Inter bg-white border-[2px] border-red rounded-[3px]   ">
                             <div className=' px-[74px] py-[30px] grid grid-cols-5'>
                                 <ul>
                                   <li><Link to={"/"} className=' font-poppins font-[500] text-[16px] leading-[24px] text-blackText'>Saree</Link></li>
@@ -228,7 +228,7 @@ const Navbar = () => {
                        </div>
                 </li> 
                 <li className='  group  '><Link href={"/"} className=' font-poppins font-[500] text-[16px] leading-[24px] uppercase text-blackText opacity-[85%]'>Kid's Fashion  </Link>
-                        <div className="z-10  absolute w-[1170px] top-[150px] right-[200px] left-[90px]  duration-300  invisible group-hover:visible text-text-black font-medium text-[15px] font-Inter bg-white border-[2px] border-red rounded-[3px]   ">
+                        <div className="z-10  absolute md:w-[687px] lg:w-[1170px] md:top-[163px] md:left-[40px] lg:top-[150px] lg:left-[90px] duration-300  invisible group-hover:visible text-text-black font-medium text-[15px] font-Inter bg-white border-[2px] border-red rounded-[3px]   ">
                             <div className=' px-[74px] py-[30px] grid grid-cols-5'>
                                 <ul>
                                   <li><Link to={"/"} className=' font-poppins font-[500] text-[16px] leading-[24px] text-blackText'>Saree</Link></li>
@@ -315,7 +315,7 @@ const Navbar = () => {
                        </div>
                 </li> 
                 <li className='  group  '><Link href={"/"} className=' font-poppins font-[500] text-[16px] leading-[24px] uppercase text-blackText opacity-[85%]'>Home & Lifestyle  </Link>
-                        <div className="z-10  absolute w-[1170px] top-[150px] right-[200px] left-[90px]  duration-300  invisible group-hover:visible text-text-black font-medium text-[15px] font-Inter bg-white border-[2px] border-red rounded-[3px]   ">
+                        <div className="z-10  absolute md:w-[687px] lg:w-[1170px] md:top-[163px] md:left-[40px] lg:top-[150px] lg:left-[90px]  duration-300  invisible group-hover:visible text-text-black font-medium text-[15px] font-Inter bg-white border-[2px] border-red rounded-[3px]   ">
                             <div className=' px-[74px] py-[30px] grid grid-cols-5'>
                                 <ul>
                                   <li><Link to={"/"} className=' font-poppins font-[500] text-[16px] leading-[24px] text-blackText'>Saree</Link></li>
@@ -402,7 +402,7 @@ const Navbar = () => {
                        </div>
                 </li>  
                 <li className='  group '><Link href={"/"} className=' font-poppins font-[500] text-[16px] leading-[24px] uppercase text-blackText opacity-[85%]'>Arts & Crafts  </Link>
-                        <div className="z-10  absolute w-[1170px] top-[150px] right-[200px] left-[90px]  duration-300  invisible group-hover:visible text-text-black font-medium text-[15px] font-Inter bg-white border-[2px] border-red rounded-[3px]   ">
+                        <div className="z-10  absolute md:w-[687px] lg:w-[1170px] md:top-[163px] md:left-[40px] lg:top-[150px] lg:left-[90px]  duration-300  invisible group-hover:visible text-text-black font-medium text-[15px] font-Inter bg-white border-[2px] border-red rounded-[3px]   ">
                             <div className=' px-[74px] py-[30px] grid grid-cols-5'>
                                 <ul>
                                   <li><Link to={"/"} className=' font-poppins font-[500] text-[16px] leading-[24px] text-blackText'>Saree</Link></li>
@@ -489,7 +489,7 @@ const Navbar = () => {
                        </div>
                 </li> 
                 <li className='  group  '><Link href={"/"} className=' font-poppins font-[500] text-[16px] leading-[24px] uppercase text-blackText opacity-[85%]'>Computer & Electronics  </Link>
-                        <div className="z-10  absolute w-[1170px] top-[150px] right-[200px] left-[90px]  duration-300  invisible group-hover:visible text-text-black font-medium text-[15px] font-Inter bg-white border-[2px] border-red rounded-[3px]   ">
+                        <div className="z-10  absolute md:w-[687px] lg:w-[1170px] md:top-[163px] md:left-[40px] lg:top-[150px] lg:left-[90px]  duration-300  invisible group-hover:visible text-text-black font-medium text-[15px] font-Inter bg-white border-[2px] border-red rounded-[3px]   ">
                             <div className=' px-[74px] py-[30px] grid grid-cols-5'>
                                 <ul>
                                   <li><Link to={"/"} className=' font-poppins font-[500] text-[16px] leading-[24px] text-blackText'>Saree</Link></li>
@@ -576,7 +576,7 @@ const Navbar = () => {
                        </div>
                 </li> 
                 <li className='  group  '><Link href={"/"} className=' font-poppins font-[500] text-[16px] leading-[24px] uppercase text-blackText opacity-[85%]'>Food & Grocery   </Link>
-                        <div className="z-10  absolute w-[1170px] top-[150px] right-[200px] left-[90px]  duration-300  invisible group-hover:visible text-text-black font-medium text-[15px] font-Inter bg-white border-[2px] border-red rounded-[3px]   ">
+                        <div className="z-10  absolute md:w-[687px] lg:w-[1170px] md:top-[163px] md:left-[40px] lg:top-[150px] lg:left-[90px]  duration-300  invisible group-hover:visible text-text-black font-medium text-[15px] font-Inter bg-white border-[2px] border-red rounded-[3px]   ">
                             <div className=' px-[74px] py-[30px] grid grid-cols-5'>
                                 <ul>
                                   <li><Link to={"/"} className=' font-poppins font-[500] text-[16px] leading-[24px] text-blackText'>Saree</Link></li>

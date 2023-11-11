@@ -23,13 +23,16 @@ module.exports = {
     },
     fontFamily: {   
         montser: ['Montserrat', 'sans-serif'],
-        poppins: ['Poppins', 'sans-serif']
+        poppins: ['Poppins', 'sans-serif'],
+        lato: [ 'Lato', 'sans-serif']
         },
     
    
     colors:{
       blue:"#0970CD",
+      lightGreen: "#0ac96d",
       Secblue:"#0198E9",
+      brandColor: "#02344f",
       white: "#ffff",
       black38:"#383838",
       blackText: "#333333",
