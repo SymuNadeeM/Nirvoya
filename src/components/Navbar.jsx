@@ -579,7 +579,7 @@ const Navbar = () => {
                         <div className="z-10  absolute md:w-[687px] lg:w-[1170px] md:top-[163px] md:left-[40px] lg:top-[150px] lg:left-[90px]  duration-300  invisible group-hover:visible text-text-black font-medium text-[15px] font-Inter bg-white border-[2px] border-red rounded-[3px]   ">
                             <div className=' px-[74px] py-[30px] grid grid-cols-5'>
                                 <ul>
-                                  <li><Link to={"/"} className=' font-poppins font-[500] text-[16px] leading-[24px] text-blackText'>Saree</Link></li>
+                                  <li><Link to={"/layout/my-account"} className=' font-poppins font-[500] text-[16px] leading-[24px] text-blackText'>Saree</Link></li>
                                   <li><Link to={"/"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Cotton</Link></li>
                                   <li><Link to={"/"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Silk</Link></li>
                                   <li><Link to={"/"} className=' font-poppins font-[400] text-[14px] leading-[21px] text-[#757575]'>Katan</Link></li>
